@@ -24,6 +24,7 @@ const students = [
 
 const student_class = students.find(function(element){
   if (element["class"] === "3C") {
-    console.log(element["class"]);
+    return true
   }
 })
+console.log(student_class["class"]);
